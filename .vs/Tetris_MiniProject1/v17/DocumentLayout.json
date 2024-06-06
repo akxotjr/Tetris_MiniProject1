@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Tetris\\Tetris_MiniProject1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|C:\\Tetris\\Tetris_MiniProject1\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|solutionrelative:Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|C:\\Tetris\\Tetris_MiniProject1\\Tetris.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|solutionrelative:Tetris.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|C:\\Tetris\\Tetris_MiniProject1\\Block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|solutionrelative:Block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|C:\\Tetris\\Tetris_MiniProject1\\Block.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|solutionrelative:Block.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|C:\\Tetris\\Tetris_MiniProject1\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|solutionrelative:Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|C:\\Tetris\\Tetris_MiniProject1\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|solutionrelative:pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|C:\\Tetris\\Tetris_MiniProject1\\ConsoleHelper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|solutionrelative:ConsoleHelper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|C:\\Tetris\\Tetris_MiniProject1\\ConsoleHelper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|solutionrelative:ConsoleHelper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|C:\\Tetris\\Tetris_MiniProject1\\Types.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6A51CC3-878E-4E8B-85EF-283079EB6859}|Tetris_MiniProject1.vcxproj|solutionrelative:Types.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tetris.cpp",
+              "DocumentMoniker": "C:\\Tetris\\Tetris_MiniProject1\\Tetris.cpp",
+              "RelativeDocumentMoniker": "Tetris.cpp",
+              "ToolTip": "C:\\Tetris\\Tetris_MiniProject1\\Tetris.cpp",
+              "RelativeToolTip": "Tetris.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-03T15:24:59.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Types.h",
+              "DocumentMoniker": "C:\\Tetris\\Tetris_MiniProject1\\Types.h",
+              "RelativeDocumentMoniker": "Types.h",
+              "ToolTip": "C:\\Tetris\\Tetris_MiniProject1\\Types.h",
+              "RelativeToolTip": "Types.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-02T14:02:46.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsoleHelper.h",
+              "DocumentMoniker": "C:\\Tetris\\Tetris_MiniProject1\\ConsoleHelper.h",
+              "RelativeDocumentMoniker": "ConsoleHelper.h",
+              "ToolTip": "C:\\Tetris\\Tetris_MiniProject1\\ConsoleHelper.h",
+              "RelativeToolTip": "ConsoleHelper.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-02T13:59:46.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Block.h",
+              "DocumentMoniker": "C:\\Tetris\\Tetris_MiniProject1\\Block.h",
+              "RelativeDocumentMoniker": "Block.h",
+              "ToolTip": "C:\\Tetris\\Tetris_MiniProject1\\Block.h",
+              "RelativeToolTip": "Block.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-02T13:53:31.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Board.h",
+              "DocumentMoniker": "C:\\Tetris\\Tetris_MiniProject1\\Board.h",
+              "RelativeDocumentMoniker": "Board.h",
+              "ToolTip": "C:\\Tetris\\Tetris_MiniProject1\\Board.h",
+              "RelativeToolTip": "Board.h",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-02T13:53:06.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\Tetris\\Tetris_MiniProject1\\pch.h",
+              "RelativeDocumentMoniker": "pch.h",
+              "ToolTip": "C:\\Tetris\\Tetris_MiniProject1\\pch.h",
+              "RelativeToolTip": "pch.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-02T13:47:09.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Board.cpp",
+              "DocumentMoniker": "C:\\Tetris\\Tetris_MiniProject1\\Board.cpp",
+              "RelativeDocumentMoniker": "Board.cpp",
+              "ToolTip": "C:\\Tetris\\Tetris_MiniProject1\\Board.cpp",
+              "RelativeToolTip": "Board.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T14:04:03.055Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Block.cpp",
+              "DocumentMoniker": "C:\\Tetris\\Tetris_MiniProject1\\Block.cpp",
+              "RelativeDocumentMoniker": "Block.cpp",
+              "ToolTip": "C:\\Tetris\\Tetris_MiniProject1\\Block.cpp",
+              "RelativeToolTip": "Block.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-05T12:34:30.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConsoleHelper.cpp",
+              "DocumentMoniker": "C:\\Tetris\\Tetris_MiniProject1\\ConsoleHelper.cpp",
+              "RelativeDocumentMoniker": "ConsoleHelper.cpp",
+              "ToolTip": "C:\\Tetris\\Tetris_MiniProject1\\ConsoleHelper.cpp",
+              "RelativeToolTip": "ConsoleHelper.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-05T12:03:34.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
