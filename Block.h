@@ -19,15 +19,18 @@ public:
 	Block();
 	~Block();
 
-	Pos GetBlockPos();
-	void SetBlockPos(int32 y, int32 x);
+	Pos GetBlockPos() { return _blockPos; }
+	void SetBlockPos(Pos pos) 
+	{
+		_blockPos.y = pos.y;
+		_blockPos.x = pos.x;
+	}
 
-	void UpdateTetrimino();
+	void Update();
+	void Render();
 
 private:
 	vector<Pos> GenerateBlock();
-
-
 
 public:
 	vector<Pos> _tetrimino;

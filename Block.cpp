@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "Block.h"
+#include "ConsoleHelper.h"
 
 Block::Block()
 {
@@ -10,26 +11,27 @@ Block::~Block()
 {
 }
 
-Pos Block::GetBlockPos()
+void Block::Update()
 {
-	return _blockPos;
+	if (_blockPos.y > 20)
+		_blockPos.y = 1;
+	_blockPos += Pos(1, 0);
 }
 
-void Block::SetBlockPos(int32 y, int32 x)
+void Block::Render()
 {
-	_blockPos.y = y;
-	_blockPos.x = x;
-}
-
-void Block::UpdateTetrimino()
-{
-	for (Pos& pos : _tetrimino)
+	for (Pos pos : _tetrimino)
 	{
-		pos += _blockPos;
+		pos += GetBlockPos();
+		//ConsoleHelper::SetConsoleColor(ConsoleColor::GREEN);
+		//GoToXY(pos.x, pos.y);
+		//cout << "бс";
+
 	}
+	//GoToXY(0, 0);
 }
 
- vector<Pos> Block::GenerateBlock()
+vector<Pos> Block::GenerateBlock()
 {
 	const int32 randValue = ::rand() % Tetromino::TERTROMINO_COUNT;
 	Tetromino tetromino = static_cast<Tetromino>(randValue);

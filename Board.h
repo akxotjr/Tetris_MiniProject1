@@ -17,6 +17,10 @@ enum class TileType
 	WALL
 };
 
+constexpr int MAP_WIDTH = 12;
+constexpr int MAP_HEIGHT = 22;
+
+
 class Block;
 
 class Board
@@ -27,22 +31,23 @@ public:
 	Board();
 	~Board();
 
-	void Init();
+	void Init(ConsoleHelper* console);
 	void Render();
 
 	void GenerateMap();
 	TileType GetTileType(Pos pos);
 	ConsoleColor GetTileColor(Pos pos);
-	void Update(uint64 deltaTick);
+	void Update(float deltaTick);
 	bool isInBoundary(vector<Pos>& tetromino, Pos blockPos);
 
 private:
 	int32 _size_y = 22;
 	int32 _size_x = 12;
-	uint64 _sumTick = 0;
+	float _sumTick = 0;
 
+	ConsoleHelper* _console = nullptr;
 	Block* _block = nullptr;
 
-	TileType _tile[MAX_BOARD_SIZE][MAX_BOARD_SIZE];
+	TileType _map[MAP_HEIGHT][MAP_WIDTH];
 };
 

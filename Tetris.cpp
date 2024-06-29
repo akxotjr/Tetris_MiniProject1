@@ -2,21 +2,36 @@
 #include "Board.h"
 #include "Block.h"
 
+ConsoleHelper console;
 Board board;
+Block block;
 
 int main()
 {
-	::srand(static_cast<uint32>(time(nullptr)));					
-	board.Init();
+	::srand(static_cast<uint32>(time(nullptr)));		
 
-	uint64 lastTick = 0;
+	console.Init();
+	board.Init(&console);
+
+	LARGE_INTEGER curTick;
+	LARGE_INTEGER freq;
+
+	QueryPerformanceCounter(&curTick);
+	QueryPerformanceFrequency(&freq);
 
 	while (true)
 	{
-		const uint64 currentTick = ::GetTickCount64();
-		const uint64 deltaTick = currentTick - lastTick;
-		lastTick = currentTick;
-		board.Update(deltaTick);
+		LARGE_INTEGER lastTick;
+		QueryPerformanceCounter(&lastTick);
+
+		float deltaTick =
+			(lastTick.QuadPart - curTick.QuadPart) / (float)freq.QuadPart;
+		curTick = lastTick;
+
+		//board.Update(deltaTick);
 		board.Render();
+		console.ClearScreen();
+		console.BufferFlip();
+		Sleep(1);
 	}
 }

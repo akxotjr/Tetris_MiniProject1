@@ -50,3 +50,4 @@ enum Dir
 	DIR_COUNT = 4
 };
 
+void GoToXY(int x, int y);
